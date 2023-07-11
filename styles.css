@@ -1,0 +1,41 @@
+body{
+    background: url("./backgrouund1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#heading{
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+#content{
+    display: flex;
+    background-color: rgba(0,0,0,0.4);
+    height: 550px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+img{
+    height: 125px;
+    width: 125px;
+    border: 3px solid green;  
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 40%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#title{
+    color: white;
+    display: flex;
+    width: 1000px;
+    /* background-color: aqua; */
+    margin: auto;
+    justify-content: space-around;
+}
